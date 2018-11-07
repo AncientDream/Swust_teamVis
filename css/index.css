@@ -1,0 +1,60 @@
+html, body, h1, h2, h3, h4, h5, h6, div, blockquote, pre, a, address, big, cite, code,
+del, em, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend {
+    margin: 0;
+    padding: 0
+}
+/*百度地图消除logo*/
+.BMap_cpyCtrl {
+    display: none;
+}
+
+.anchorBL {
+    display: none;
+}
+/*html{*/
+    /*height:100%*/
+/*}*/
+/*body{*/
+    /*height:100%;*/
+/*}*/
+
+.container_left {
+    float: left;
+    width: 65%;
+    /*border: solid 1px red;*/
+}
+
+.container_right {
+    width: 30%;
+    float: left;
+    /*border: solid 1px red;*/
+}
+
+.left_item {
+    height: 500px;
+    width: 100%;
+    /*background: bisque;*/
+    /*border: solid 1px red;*/
+}
+
+.right_item {
+    background: cornflowerblue;
+    height: 30px;
+    border: solid 1px red;
+}
+
+.foot {
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    border: solid 1px red;
+}
+
+.foot_item {
+    float: left;
+    background: aliceblue;
+    width: 22%;
+    height: 500px;
+    border: solid 1px red;
+}
